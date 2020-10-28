@@ -1,1 +1,1 @@
-Any external images will be saved in this directory.
+All jupyter notebook files should be in here. 
