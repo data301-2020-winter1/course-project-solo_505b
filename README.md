@@ -16,15 +16,14 @@ Medical(history):
 - BP Meds: If the patient used blood pressure drugs
 - Prevalent Stroke: If the patient suffered a stroke in the past
 - Prevalent Hyp: If the patient is hypertensive
-- Diabetes: If the patient has diabetes
-
+- Diabetes: If the patient has diabetes<br>
 Medical(current):
 - Tot Chol: total cholesterol level 
 - Sys BP: systolic blood pressure
 - Dia BP: diastolic blood pressure 
 - BMI: Body Mass Index 
 - Heart Rate: heart rate
-- Glucose: glucose level 
+- Glucose: glucose level<br> 
 
 Predict variable (desired target)
 - if patient has a 10-year chance of coronary heart disease
