@@ -2,35 +2,32 @@
 # Group 505 - Predict Heart Disease using local lp norm
 
 ## Topic Description
-World Health Organization has estimated 12 million deaths occur worldwide; every year due to Heart diseases. Half the deaths in the United States and other developed countries are due to *cardiovascular diseases*. The early prognosis of cardiovascular diseases can aid in making decisions on lifestyle changes in high risk patients and in turn reduce the complications. This project intends to predict the overall risk using **local lp norm** method. The main goal of this project is apply our newly developed method on a dataset with a categorical (binary in this case) response variable to compare MSE (Mean Squared Error) of the ordinary logistic regression and local lp norm. Also pinpoint the most relevant/risk factors of heart disease and analyze the correlation between explanatory variables. By the end of this project, we're going study the performance of *local lp method* on a categorical data.
+Cardiovascular diseases (CVDs) are the number one cause of death worldwide with an estimated 17.9 million deaths per year [1](https://www.who.int/health-topics/cardiovascular-diseases/#tab=tab_1). One person dies every 36 seconds in the United States from cardiovascular disease[2](https://www.cdc.gov/heartdisease/facts.htm). Early prognosis of cardiovascular disease can help make choices about lifestyle improvements in high-risk patients and in exchange, reduce risks.<b> In this project I'm going to  predict the overall risk using **logistic regression** method and compare the accuracy of logistic regression to our newly developed method **local lp norm**. In addition, highlight the most relevant/risk factors for heart failure and examine the correlation between explanatory variables( aka features).
 
 ## Dataset Description
-The dataset is publicly available on the Kaggle website, and it is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. The classification goal is to predict whether the patient has 10-year risk of future coronary heart disease (CHD). The dataset provides the patients’ information. It includes over *4,000 records* and *15 attributes*. Each attribute is a potential risk factor. There are both demographic, behavioral and medical risk factors.
-
+This dataset is part of the continuing cardiovascular research of residents of Framingham Area, Massachusetts which is public on the Kaggle website. The classification aim is to predict whether a patient has a 10-year chance of potential coronary heart disease (CHD). The dataset over *4,000 records* and *15 feature*. Each feature is a possible risk factor. Three kinds of factors had been collected in this dataset.<br>
 Demographic:
-- Sex: male or female (Nominal)
-- Age: Age of the patient;(Continuous - Although the recorded ages have been truncated to whole numbers, the concept of age is continuous)
+- Sex : 1 indicates male and 0 indicates female
+- Age: Age of the patient<br>
+Behavioral:
+- Current Smoker: whether the patient is a current smoker
+- Cigs Per Day: The number of cigarettes the person smoked in one day on average.<br>
+Medical(history):
+- BP Meds: If the patient used blood pressure drugs
+- Prevalent Stroke: If the patient suffered a stroke in the past
+- Prevalent Hyp: If the patient is hypertensive
+- Diabetes: If the patient has diabetes
 
-Behavioral
-- Current Smoker: whether the patient is a current smoker (Nominal)
-- Cigs Per Day: the number of cigarettes that the person smoked on average in one day. (can be considered continuous as one can have any number of cigarettes, even half a cigarette.)
-
-Medical(history)
-- BP Meds: whether the patient was on blood pressure medication (Nominal)
-- Prevalent Stroke: whether the patient had previously had a stroke (Nominal)
-- Prevalent Hyp: whether the patient was hypertensive(Nominal)
-- Diabetes: whether the patient had diabetes (Nominal)
-
-Medical(current)
-- Tot Chol: total cholesterol level (Continuous)
-- Sys BP: systolic blood pressure (Continuous)
-- Dia BP: diastolic blood pressure (Continuous)
-- BMI: Body Mass Index (Continuous)
-- Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.)
-- Glucose: glucose level (Continuous)
+Medical(current):
+- Tot Chol: total cholesterol level 
+- Sys BP: systolic blood pressure
+- Dia BP: diastolic blood pressure 
+- BMI: Body Mass Index 
+- Heart Rate: heart rate
+- Glucose: glucose level 
 
 Predict variable (desired target)
-- 10-year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”)
+- if patient has a 10-year chance of coronary heart disease
 
 ## Team Members
 
