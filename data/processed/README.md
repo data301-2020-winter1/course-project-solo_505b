@@ -1,1 +1,3 @@
-I dropped the column *education* from the data set as I did'nt want to study and include this variable!
+I dropped the column *education* from the data set as I did'nt want to study and include this variable! also all mising values and outliers were managed and saved in  a new dataframe *PreparedDataSet*
+
+The *6mostrelevant" dataframe contains the target variable and 6 most relevant heart failure factors in the dataset. this datset is going to be used for local lp norm in ordet to compare the MSE of this method and logistic regression.
