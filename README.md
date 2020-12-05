@@ -39,4 +39,4 @@ Ladan Tazik - I love hanging out with my friends!
 [Kaggle-Farmingham Dataset](https://www.kaggle.com/amanajmera1/framingham-heart-study-dataset)
 
 ## tableau dashboard presentation
-this is the [link](https://youtu.be/OjJBLbf1wDI) for the presenatation.
+this is the [link](https://youtu.be/enTr_P93nRw) for the presenatation.
